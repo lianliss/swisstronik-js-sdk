@@ -1,3 +1,11 @@
+## CJS compatible
+
+@swisstronik/utils package with CJS compability.
+
+### Changes
+
+axios package version downgraded to 0.21.1
+
 ### Utils for encryption / decryption
 
 Main purpose of this package is to provide set of helper functions for transaction data / query encryption 
@@ -6,7 +14,7 @@ and decryption of node response
 ## Installation
 
 ```shell
-npm install @swisstronik/utils
+npm install @lianliss/swisstronik-utils
 ```
 
 ## Examples
@@ -14,7 +22,7 @@ npm install @swisstronik/utils
 ### Convert bech32 address to ethereum and vice versa
 
 ```typescript
-import { bech32toEthAddress, ethAddressToBech32} from '@swisstronik/utils'
+import { bech32toEthAddress, ethAddressToBech32} from '@lianliss/swisstronik-utils'
 
 const originalBech32Address = "swtr13sllcdsqhjektac5r6h50dvjrthm0yt6zw3q4s"
 
